@@ -117,13 +117,4 @@ input:focus {
   color: white;
   box-shadow: 5px 5px rgba(68, 68, 68, 0.2);
 }
-.lake {
-  background-color: #5B9ea6;
-}
-.dust {
-  background-color: #ebf0f2;
-}
-.lipstick {
-  background-color: #bf6b63;
-}
 </style>
