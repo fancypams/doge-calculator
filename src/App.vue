@@ -9,6 +9,7 @@
           <p>Dogecoin current USD value is:</p>
           <h3>${{ dogeValue }}</h3>
       </div>
+      <p class="disclaimer">value will refresh automatically every 10 seconds</p>
       <div class="card">
         <h2>How many Doge-ies ya got?</h2>
         <p>Calculate what your Dogecoin is worth in USD</p>
@@ -116,5 +117,9 @@ input:focus {
   background-color: #2c3e50;
   color: white;
   box-shadow: 5px 5px rgba(68, 68, 68, 0.2);
+}
+.disclaimer {
+  font-style: italic;
+  font-size: .75em;
 }
 </style>
