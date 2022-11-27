@@ -28,11 +28,20 @@
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
-    "node-sass": "^4.5.3",
+    "node-sass": "^8.0",
     "sass-loader": "^6.0.6",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancypams/doge-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fancypams/doge-calculator/issues"
+  },
+  "homepage": "https://github.com/fancypams/doge-calculator#readme"
 }

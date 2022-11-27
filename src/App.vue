@@ -49,9 +49,9 @@ export default {
   methods: {
     getDogePrice() {
       axios
-        .get('https://api.cryptonator.com/api/ticker/doge-usd')
+        .get('https://api.kraken.com/0/public/Ticker?pair=DOGEUSD')
         .then(response => {
-            this.dogeValue = response.data.ticker.price
+            this.dogeValue = response.data.result.XDGUSD.a[0]
         })
     },
     calculateDoge() {
